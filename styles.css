@@ -1,0 +1,319 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Oswald;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+
+/* LOGO */
+
+#logo {
+    padding: 40px;
+    margin-top: 10px;
+}
+
+
+/*NAV BAR*/
+
+nav {
+    list-style: none;
+    float: right;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #555;
+}
+
+nav a:hover {
+    color: #ed811c;
+}
+
+nav a:active {
+    color: #b25f14;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 22px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+nav ul li a.active-link {
+    color: #b25f14;
+}
+
+
+/* Gradient transparent - color - transparent */
+
+.nav-divider {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*HERO ELEMENT*/
+
+#hero-image {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#hero-text {
+    text-align: center;
+    color: #828282;
+    font-weight: 200;
+}
+
+
+/* MISSION STATEMETNT */
+
+#mission-statement {
+    text-align: center;
+    color: #848484;
+/*
+    font-size: 36px;
+    font-weight: bolder;
+    font-family: Oswald;
+*/
+    font: 700 48px / 40px Oswald;
+}
+
+.orange-em {
+    color: #fa7700;
+    text-decoration: none;
+}
+
+
+/* RECENT PROJECTS */
+
+#recent-projects {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#recent-projects a:hover {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+
+/* WHAT PEOPLE SAY ABOUT US */
+
+#testimonials {
+    float: left;
+}
+
+#testimonials h3 {
+    text-align: center;
+    position: relative;
+    top: -11px;
+}
+
+#testimonial-1 img,
+#testimonial-2 img,
+#testimonial-3 img {
+    float: left;
+    clear: left;
+    padding: 10px 0 10px 30px;
+}
+
+#testimonials blockquote {
+    float: right;
+    padding-top: 25px;
+}
+
+
+/* TWITTER FEED */
+
+#social-media {
+    clear: right;
+    padding-top: 10px;
+}
+
+#social-media h3 {
+    text-align: center;
+    position: relative;
+    top: -24px
+}
+
+#tweet-1,
+#tweet-2,
+#tweet-3 {
+    padding-bottom: 30px;
+}
+
+#social-media img {
+    float: left;
+}
+
+
+/* SECONDARY CONTENT */
+
+#secondary-content {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* ABOUT US */
+
+#secondary-content #about-us {
+    width: 33%;
+    float: left;
+}
+
+#secondary-content #about-us p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+#read-more-btn {
+    cursor: pointer;
+    background: #ed811c;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+/* SERVICES WE OFFER */
+
+#secondary-content #our-services {
+    width: 33%;
+    height: 525px;
+    float: left;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#secondary-content #our-services ul {
+    list-style: none;
+}
+
+#secondary-content #our-services ul li {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+/* LATEST NEWS */
+
+#secondary-content #latest-news {
+    width: 33%;
+    float: left;
+}
+
+#secondary-content #latest-news p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.orange {
+    color: #ed811c;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+
+/* NAV DIVIDER 2*/
+
+.nav-divider2 {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* FOOTER */
+
+footer {
+    clear: both;
+    text-align: center;
+    overflow: hidden;
+    background-image: url(images/footer-bg.png);
+}
+
+footer img {
+    padding-top: 20px;
+}
+
+footer p {
+    text-align: justify;
+    padding: 0 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 5px;
+}
+
+footer ul li {
+    padding: 3px;
+}
+
+footer a:link {
+    color: #000;
+}
+
+footer a:visited {
+    color: #555;
+}
+
+footer a:hover {
+    color: #ed811c;
+}
+
+footer a:active {
+    color: #b25f14;
+}
+
+footer #footer-about {
+    float: left;
+    width: 33%;
+}
+
+footer #footer-about p {
+    text-align: justify;
+    float: left;
+    font-size: 0.9em;
+}
+
+#footer-connect {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+#footer-connect ul li {
+    font-size: 0.9em;
+}
+
+#footer-friends {
+    float: left;
+    width: 33%
+}
+
+#footer-friends ul li {
+    font-size: 0.9em;
+}
